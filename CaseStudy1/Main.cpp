@@ -12,10 +12,10 @@ using namespace std;
 int main()
 {
 	OutputPrinter OP;
-	OP.Print();
+	OP.print();
 
 	DataValidater Dp;
-	Dp.Result();
+	Dp.result();
 
 
 	return 0;

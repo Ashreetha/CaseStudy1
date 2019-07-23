@@ -10,9 +10,9 @@
 class OutputPrinter
 {
 private:
-	//m_DataToPrint stores the message which should get displayed on the console.
-	const std::string m_DataToPrint = "Hello World"; 
+	//m_dataToPrint stores the message which should get displayed on the console.
+	const std::string m_dataToPrint = "Hello World"; 
 public:	
-	void Print();
-	std::string GetPrintData();
+	void print();
+	std::string getPrintData();
 };

@@ -9,15 +9,15 @@
 using namespace std;	
 		
 //This function prints the message on the console
- void OutputPrinter:: Print()
+ void OutputPrinter:: print()
 {
-	cout << m_DataToPrint << endl;
+	cout << m_dataToPrint << endl;
 }
 
  //This function returns the message displayed on the console
-string OutputPrinter::GetPrintData()
+string OutputPrinter::getPrintData()
 {
-	return m_DataToPrint;
+	return m_dataToPrint;
 }
 
 

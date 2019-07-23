@@ -11,12 +11,12 @@ COPYRIGHT KONINKLIJKE PHILIPS ELECTRONICS N.V 2019*/
 using namespace std;
 
 //This function compares the message displayed on the console and gives the output accordingly
-void DataValidater::Result()
+void DataValidater::result()
 {	
 	OutputPrinter Op;
-	string m_PrintData = Op.GetPrintData();		
+	string m_printData = Op.getPrintData();		
 		
-	if (strcmp(m_PrintData.c_str(), m_DataToValidate.c_str()) == 0)
+	if (strcmp(m_printData.c_str(), m_dataToValidate.c_str()) == 0)
 	{	
 		cout << "Result: Passed" << endl;
 	}
